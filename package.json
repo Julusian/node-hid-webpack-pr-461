@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "shx cp -R node_modules/node-hid/build ./ && webpack",
+    "build": "shx cp -R node_modules/node-hid/build ./dist/ && webpack",
     "start": "node dist/main.js"
   },
   "dependencies": {
